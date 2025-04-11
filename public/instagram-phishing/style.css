@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: red;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: #1a1a1a;
+  padding: 40px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+input, button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px;
+  background: black;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: red;
+  color: black;
+  cursor: pointer;
+}
